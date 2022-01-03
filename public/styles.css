@@ -1,0 +1,161 @@
+/*primary styles*/
+body {
+  margin: 0px;
+  font-family: "Roboto", sans-serif;
+}
+
+
+.container{
+  font-size: 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+/*nav styles*/
+.nav-bar {
+  background-color: #620593;
+  display: flex;
+  justify-content: space-between;
+  padding: 38px;
+  font-weight: 800;
+  color: #c7c7c7;
+}
+
+.left-side {
+  display: flex;
+}
+
+.nav-bar > .left-side > div {
+  margin-right: 20px;
+  font-size: 0.9em;
+  text-transform: uppercase;
+}
+
+.nav-bar-link {
+  height: 22px;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.5s;
+}
+
+.nav-bar-link a {
+  color: #c7c7c7;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+.nav-bar-link:hover {
+  border-bottom: 1px solid black;
+}
+
+.nav-bar-link a:hover {
+  color: black;
+}
+
+.active-nav-link{
+  border-bottom: 3px solid black;
+}
+
+.active-nav-link a{
+  color: black;
+}
+
+/*content-wrapper*/
+
+.groups{
+  display: grid;
+  padding: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.group{
+  padding: 15px;
+  background-color: rgb(255, 230, 0);
+  border-radius: 15px;
+  border: 5px solid #ad218f;
+}
+
+.group_title_wraper{
+  border: 5px solid #ad218f;
+  height: 80px;
+  width: 100%;
+  border-radius: 15px;
+  display: flex;
+  color: #fff;
+  background-color: #000;
+}
+
+.group_title{
+  height:100px;
+  width: 100%;
+  padding: 10px 0;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 500;
+  font-size: 50px;
+  color: aqua;
+}
+
+.button {
+  border: 5px solid #ad218f;
+  height:100px;
+  width: 100%;
+  border-radius: 15px;
+  display: flex;
+  color: #fff;
+  background-color: #000;
+}
+
+.button_logo img{
+  width: 100px;
+  height: 100px;
+}
+
+.button_title{
+  height:100px;
+  width: 100%;
+  padding: 30px 0;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 500;
+  font-size: 30px;
+  color: aqua;
+}
+
+.button_light_Frame{
+  width: 60px;
+  height: 100px;
+  padding: 30px;
+}
+
+.Green_Button{
+  width: 0px; 
+  height: auto;
+  margin: 0 auto;
+  padding: 10px;
+  position: relative;
+  border-radius: 15px;
+  border: 5px solid gray;
+  background-color: green;
+}
+
+.Red_Button{
+  width: 0px; 
+  height: auto;
+  margin: 0 auto;
+  padding: 10px;
+  position: relative;
+  border-radius: 15px;
+  border: 5px solid gray;
+  background-color: red;
+}
+
+.Yellow_Button{
+  width: 0px; 
+  height: auto;
+  margin: 0 auto;
+  padding: 10px;
+  position: relative;
+  border-radius: 15px;
+  border: 5px solid gray;
+  background-color: Yellow;
+}
