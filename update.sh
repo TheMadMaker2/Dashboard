@@ -1,6 +1,6 @@
 #!/bin/bash
-V=0.5.0
-docker build -t themadmaker2/website:$V .
+V=0.1.0
+docker build -t themadmaker2/dashboard:$V .
 docker stop Website
 docker rm Website
-docker run -d --name=Website \-p 5000:5000 themadmaker2/website:$V
+docker run -d --restart unless-stopped --name=dashboard -p 5000:5000 themadmaker2/dashboard:$V
