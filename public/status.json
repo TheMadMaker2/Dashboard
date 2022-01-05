@@ -4,5 +4,11 @@
   "SONARR": "Active",
   "JACKETT": "Active",
   "QBITVPN": "Active",
-  "QBIT": "Active"
+  "QBIT": "Active",
+  "WEBSITE": "Active",
+  "MINECRAFT": "Active",
+  "PFSENSE": "Active",
+  "UNIFI": "Active"
+
+
 }

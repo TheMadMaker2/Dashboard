@@ -2,6 +2,7 @@
 body {
   margin: 0px;
   font-family: "Roboto", sans-serif;
+  background-color: #000;
 }
 
 
@@ -62,26 +63,41 @@ body {
 /*content-wrapper*/
 
 .groups{
-  display: grid;
-  padding: 10px;
-  grid-template-columns: 1fr 1fr 1fr;
+background-color: #000;
+}
+
+@media screen and (max-width: 1000px) {
+  .groups{
+    display: grid;
+    padding: 10px;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .groups{
+    display: grid;
+    padding: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 1000px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
 }
 
 .group{
   padding: 15px;
-  background-color: rgb(255, 230, 0);
-  border-radius: 15px;
-  border: 5px solid #ad218f;
 }
 
 .group_title_wraper{
-  border: 5px solid #ad218f;
+  border: 5px solid #0e0e10;
   height: 80px;
   width: 100%;
   border-radius: 15px;
   display: flex;
   color: #fff;
-  background-color: #000;
+  background-color: #290f2e;
 }
 
 .group_title{
@@ -92,17 +108,17 @@ body {
   text-align: center;
   font-weight: 500;
   font-size: 50px;
-  color: aqua;
+  color: #ec89cb;
 }
 
 .button {
-  border: 5px solid #ad218f;
+  border: 5px solid #0e0e10;
   height:100px;
   width: 100%;
   border-radius: 15px;
   display: flex;
   color: #fff;
-  background-color: #000;
+  background-color: #290f2e;
 }
 
 .button_logo img{
@@ -118,7 +134,7 @@ body {
   text-align: center;
   font-weight: 500;
   font-size: 30px;
-  color: aqua;
+  color: #ec89cb;
 }
 
 .button_light_Frame{
@@ -134,7 +150,7 @@ body {
   padding: 10px;
   position: relative;
   border-radius: 15px;
-  border: 5px solid gray;
+  border: 5px solid #0e0e10;
   background-color: green;
 }
 
@@ -145,7 +161,7 @@ body {
   padding: 10px;
   position: relative;
   border-radius: 15px;
-  border: 5px solid gray;
+  border: 5px solid #0e0e10;
   background-color: red;
 }
 
@@ -156,6 +172,6 @@ body {
   padding: 10px;
   position: relative;
   border-radius: 15px;
-  border: 5px solid gray;
+  border: 5px solid #0e0e10;
   background-color: Yellow;
 }
